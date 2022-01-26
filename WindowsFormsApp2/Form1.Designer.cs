@@ -30,6 +30,7 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.buttonAndrejs = new System.Windows.Forms.Button();
+            this.buttonbertule = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -50,11 +51,22 @@
             this.buttonAndrejs.UseVisualStyleBackColor = true;
             this.buttonAndrejs.Click += new System.EventHandler(this.button1_Click);
             // 
+            // buttonbertule
+            // 
+            this.buttonbertule.Location = new System.Drawing.Point(28, 87);
+            this.buttonbertule.Name = "buttonbertule";
+            this.buttonbertule.Size = new System.Drawing.Size(74, 27);
+            this.buttonbertule.TabIndex = 2;
+            this.buttonbertule.Text = "Sveiks no";
+            this.buttonbertule.UseVisualStyleBackColor = true;
+            this.buttonbertule.Click += new System.EventHandler(this.buttonbertule_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(502, 290);
+            this.Controls.Add(this.buttonbertule);
             this.Controls.Add(this.buttonAndrejs);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -68,6 +80,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonAndrejs;
+        private System.Windows.Forms.Button buttonbertule;
     }
 }
 
