@@ -30,6 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.buttonAndrejs = new System.Windows.Forms.Button();
+            this.ps_btn = new System.Windows.Forms.Button();
+            this.ps_lbl = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -50,11 +52,31 @@
             this.buttonAndrejs.UseVisualStyleBackColor = true;
             this.buttonAndrejs.Click += new System.EventHandler(this.button1_Click);
             // 
+            // ps_btn
+            // 
+            this.ps_btn.Location = new System.Drawing.Point(355, 107);
+            this.ps_btn.Name = "ps_btn";
+            this.ps_btn.Size = new System.Drawing.Size(75, 23);
+            this.ps_btn.TabIndex = 2;
+            this.ps_btn.Text = "ps";
+            this.ps_btn.UseVisualStyleBackColor = true;
+            this.ps_btn.Click += new System.EventHandler(this.ps_btn_Click);
+            // 
+            // ps_lbl
+            // 
+            this.ps_lbl.AutoSize = true;
+            this.ps_lbl.Location = new System.Drawing.Point(377, 61);
+            this.ps_lbl.Name = "ps_lbl";
+            this.ps_lbl.Size = new System.Drawing.Size(0, 13);
+            this.ps_lbl.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(502, 290);
+            this.Controls.Add(this.ps_lbl);
+            this.Controls.Add(this.ps_btn);
             this.Controls.Add(this.buttonAndrejs);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
@@ -68,6 +90,8 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button buttonAndrejs;
+        private System.Windows.Forms.Button ps_btn;
+        private System.Windows.Forms.Label ps_lbl;
     }
 }
 
