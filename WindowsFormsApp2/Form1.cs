@@ -19,7 +19,12 @@ namespace WindowsFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            label1.Text = "Sveiks!";
+            label1.Text = "Yo yo yo!";
+        }
+
+        private void ps_btn_Click(object sender, EventArgs e)
+        {
+            ps_lbl.Text = "Howdy";
         }
 
         private void buttonbertule_Click(object sender, EventArgs e)
