@@ -21,5 +21,10 @@ namespace WindowsFormsApp2
         {
             label1.Text = "Sveiks!";
         }
+
+        private void buttonR_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Sveiks no Rasmas!";
+        }
     }
 }
