@@ -26,5 +26,10 @@ namespace WindowsFormsApp2
         {
             ps_lbl.Text = "Howdy";
         }
+
+        private void buttonbertule_Click(object sender, EventArgs e)
+        {
+            label1.Text = "Sveiks no Beatrises!";
+        }
     }
 }
