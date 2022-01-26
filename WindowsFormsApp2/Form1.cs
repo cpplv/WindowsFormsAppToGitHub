@@ -21,5 +21,10 @@ namespace WindowsFormsApp2
         {
             label1.Text = "Yo yo yo!";
         }
+
+        private void ps_btn_Click(object sender, EventArgs e)
+        {
+            ps_lbl.Text = "Howdy";
+        }
     }
 }
